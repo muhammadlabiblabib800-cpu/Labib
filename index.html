@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Labib | Portfolio Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+    <div class="floating-elements">
+        <div class="floating-element el-1"></div>
+        <div class="floating-element el-2"></div>
+        <div class="floating-element el-3"></div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20ingin%20konsultasi%20tentang%20pembuatan%20website" 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Konsultasi Gratis</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">LABIB<span class="logo-dot">.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li><a href="#projects" class="nav-link">Proyek</a></li>
+                <li><a href="#pricing" class="nav-link">Paket Harga</a></li>
+                <li><a href="#workflow" class="nav-link">Alur Kerja</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3 class="hero-subtitle">Halo, Saya</h3>
+                <h1 class="hero-title">
+                    <span class="typewriter-text" id="typewriter"></span>
+                </h1>
+                <h2 class="hero-tagline">
+                    <span class="typewriter-tagline">Web Developer</span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">Spesialis pembuatan website modern dengan teknologi terkini untuk kebutuhan bisnis dan personal.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Lihat Paket Harga <i class="fas fa-tags"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Konsultasi Gratis <i class="fas fa-comments"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-container">
+                    <div class="code-circle"></div>
+                    <div class="tech-element te-1"><i class="fas fa-code"></i></div>
+                    <div class="tech-element te-2"><i class="fas fa-cube"></i></div>
+                    <div class="tech-element te-3"><i class="fas fa-bolt"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll ke Bawah</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title reveal">Tentang <span class="highlight">Saya</span></h2>
+            <div class="about-content">
+                <div class="about-image reveal">
+                    <div class="profile-image">
+                        <img src="1.jpg" alt="Muhammad Labib">
+                        <div class="profile-border"></div>
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <h3>Web Developer </h3>
+                    <p>Saya adalah Web Developer untuk, membantu perusahaan anda dengan menciptakan solusi digital yang inovatif. Keahlian saya terletak pada pembuatan aplikasi web responsif dengan teknologi modern dan desain futuristik.</p>
+                    <p>Berfokus dalam HTML, CSS, JavaScript, dan framework modern, saya menghidupkan ide dengan kode yang bersih dan antarmuka pengguna yang inovatif. Saya terus mengeksplorasi teknologi baru untuk tetap terdepan dalam lanskap teknologi yang terus berkembang.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Nama:</span>
+                            <span class="detail-value">Muhammad Labib</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">labib@example.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Lokasi:</span>
+                            <span class="detail-value">Lamongan, Indonesia</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Ketersediaan:</span>
+                            <span class="detail-value available">Tersedia untuk Proyek</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20ingin%20konsultasi%20tentang%20pembuatan%20website" 
+                       class="btn btn-primary" target="_blank">
+                       <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - Updated with 3 Main Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Keahlian <span class="highlight">Utama</span></h2>
+            <p class="section-subtitle reveal">Teknologi utama yang saya kuasai untuk membangun website modern dan responsif</p>
+            
+            <div class="skills-container">
+                <!-- HTML5 Skill -->
+                <div class="skill-category reveal">
+                    <div class="skill-main-logo">
+                        <i class="fab fa-html5 html-main-logo"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Struktur Website</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Semantic Markup</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="98"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SEO Optimization</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <p class="skill-description">Membangun struktur website yang clean, semantic, dan SEO friendly.</p>
+                </div>
+                
+                <!-- CSS3 Skill -->
+                <div class="skill-category reveal">
+                    <div class="skill-main-logo">
+                        <i class="fab fa-css3-alt css-main-logo"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Responsive Design</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="99"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Animations & Effects</span>
+                            <span>97%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="97"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Modern Layouts</span>
+                            <span>96%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="96"></div>
+                        </div>
+                    </div>
+                    <p class="skill-description">Mendesain website yang responsive, menarik, dan modern dengan animasi halus.</p>
+                </div>
+                
+                <!-- JavaScript Skill -->
+                <div class="skill-category reveal">
+                    <div class="skill-main-logo">
+                        <i class="fab fa-js-square js-main-logo"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Interactive Features</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="98"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>DOM Manipulation</span>
+                            <span>96%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="96"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>API Integration</span>
+                            <span>94%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="94"></div>
+                        </div>
+                    </div>
+                    <p class="skill-description">Mengembangkan fitur interaktif dan dinamis untuk pengalaman pengguna yang optimal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Projects Section - Dengan Link Demo -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title reveal">Proyek <span class="highlight">Terbaru</span></h2>
+        <p class="section-subtitle reveal">Portfolio karya terbaik saya dalam pengembangan website modern</p>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card reveal" data-tilt>
+                <div class="project-image">
+                    <img src="2.jpg" alt="Restaurant Website">
+                    <div class="project-overlay">
+                        <!-- TAMBAHKAN LINK DEMO DI SINI -->
+                        <a href="https://muhammadlabiblabib800-cpu.github.io/restoran/" 
+                           class="project-link demo-link" 
+                           target="_blank" 
+                           title="Lihat Demo Website">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span class="link-text">Live Demo</span>
+                        </a>
+                        <!-- TAMBAHKAN LINK GITHUB JIKA ADA -->
+                        <a href="https://muhammadlabiblabib800-cpu.github.io/restoran/" 
+                           class="project-link github-link" 
+                           target="_blank" 
+                           title="Lihat Kode Sumber">
+                            <i class="fab fa-github"></i>
+                            <span class="link-text">Source Code</span>
+                        </a>
+                    </div>
+                    <div class="project-badge">Best Seller</div>
+                </div>
+                <div class="project-content">
+                    <h3>Website Restoran Modern</h3>
+                    <p>Website untuk restoran fine dining dengan sistem reservasi online, menu digital, dan galeri makanan yang menarik.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Responsive</span>
+                        <span><i class="fas fa-check"></i> SEO Friendly</span>
+                        <span><i class="fas fa-check"></i> Fast Loading</span>
+                    </div>
+                    <!-- TAMBAHKAN BUTTON DEMO TAMBAHAN -->
+                    <div class="project-actions">
+                        <a href="https://muhammadlabiblabib800-cpu.github.io/restoran/" 
+                           class="btn btn-primary btn-small" 
+                           target="_blank">
+                           <i class="fas fa-external-link-alt"></i> Lihat Website 
+                        </a>
+                        <a href="https://muhammadlabiblabib800-cpu.github.io/restoran/" 
+                           class="btn btn-secondary btn-small" 
+                           target="_blank">
+                           <i class="fab fa-github"></i> Kode Sumber
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card reveal" data-tilt>
+                <div class="project-image">
+                    <img src="3.jpg" alt="E-Commerce Website">
+                    <div class="project-overlay">
+                        <!-- TAMBAHKAN LINK DEMO DI SINI -->
+                        <a href="https://labibdev.github.io/ecommerce-store" 
+                           class="project-link demo-link" 
+                           target="_blank" 
+                           title="Lihat Demo Website">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span class="link-text">Live Demo</span>
+                        </a>
+                        <!-- TAMBAHKAN LINK GITHUB JIKA ADA -->
+                        <a href="https://github.com/labibdev/ecommerce-store" 
+                           class="project-link github-link" 
+                           target="_blank" 
+                           title="Lihat Kode Sumber">
+                            <i class="fab fa-github"></i>
+                            <span class="link-text">Source Code</span>
+                        </a>
+                    </div>
+                    <div class="project-badge">Sekolah</div>
+                </div>
+                <div class="project-content">
+                    <h3>Platform Sekolah</h3>
+                    <p>Website sekolah penerimaan siswa baru dengan fitur galeri sekolah dan informasi pendaftaran</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Payment Gateway</span>
+                        <span><i class="fas fa-check"></i> Admin Dashboard</span>
+                        <span><i class="fas fa-check"></i> Mobile Friendly</span>
+                    </div>
+                    <!-- TAMBAHKAN BUTTON DEMO TAMBAHAN -->
+                    <div class="project-actions">
+                        <a href="https://labibdev.github.io/ecommerce-store" 
+                           class="btn btn-primary btn-small" 
+                           target="_blank">
+                           <i class="fas fa-external-link-alt"></i> Lihat Website 
+                        </a>
+                        <a href="https://github.com/labibdev/ecommerce-store" 
+                           class="btn btn-secondary btn-small" 
+                           target="_blank">
+                           <i class="fab fa-github"></i> Kode Sumber
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card reveal" data-tilt>
+                <div class="project-image">
+                    <img src="4.jpg" alt="Company Profile">
+                    <div class="project-overlay">
+                        <!-- TAMBAHKAN LINK DEMO DI SINI -->
+                        <a href="https://labibdev.github.io/company-profile" 
+                           class="project-link demo-link" 
+                           target="_blank" 
+                           title="Lihat Demo Website">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span class="link-text">Live Demo</span>
+                        </a>
+                        <!-- TAMBAHKAN LINK GITHUB JIKA ADA -->
+                        <a href="https://github.com/labibdev/company-profile" 
+                           class="project-link github-link" 
+                           target="_blank" 
+                           title="Lihat Kode Sumber">
+                            <i class="fab fa-github"></i>
+                            <span class="link-text">Source Code</span>
+                        </a>
+                    </div>
+                    <div class="project-badge">Company Profile</div>
+                </div>
+                <div class="project-content">
+                    <h3>Website Company Profile</h3>
+                    <p>Website profesional untuk perusahaan dengan halaman tentang, layanan, portofolio, dan kontak yang terintegrasi.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>GSAP</span>
+                    </div>
+                    <div class="project-features">
+                        <span><i class="fas fa-check"></i> Modern Design</span>
+                        <span><i class="fas fa-check"></i> Smooth Animations</span>
+                        <span><i class="fas fa-check"></i> Contact Form</span>
+                    </div>
+                    <!-- TAMBAHKAN BUTTON DEMO TAMBAHAN -->
+                    <div class="project-actions">
+                        <a href="https://labibdev.github.io/company-profile" 
+                           class="btn btn-primary btn-small" 
+                           target="_blank">
+                           <i class="fas fa-external-link-alt"></i> Lihat Demo
+                        </a>
+                        <a href="https://github.com/labibdev/company-profile" 
+                           class="btn btn-secondary btn-small" 
+                           target="_blank">
+                           <i class="fab fa-github"></i> Kode Sumber
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section untuk melihat semua proyek -->
+        <div class="projects-cta">
+            <p>Ingin melihat lebih banyak proyek? Atau ingin website seperti ini untuk bisnis Anda?</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/labibdev" 
+                   class="btn btn-secondary" 
+                   target="_blank">
+                   <i class="fab fa-github"></i> Lihat Semua di GitHub
+                </a>
+                <a href="https://wa.me/6281234567890?text=Halo%20Labib,%20saya%20ingin%20website%20seperti%20di%20portfolio%20Anda" 
+                   class="btn btn-primary" 
+                   target="_blank">
+                   <i class="fab fa-whatsapp"></i> Pesan Website Sekarang
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title reveal">Paket <span class="highlight">Harga</span></h2>
+            <p class="section-subtitle reveal">Pilih paket yang sesuai dengan kebutuhan bisnis Anda</p>
+            
+            <div class="pricing-grid">
+                <!-- Basic Package -->
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <div class="pricing-badge">Basic</div>
+                        <h3>Paket Dasar</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">90.000</span>
+                            <span class="period">- 150.000</span>
+                        </div>
+                        <p class="pricing-desc">Cocok untuk usaha kecil atau personal brand</p>
+                    </div>
+                    <div class="pricing-features">
+                        <h4><i class="fas fa-check-circle"></i> Fitur yang Didapat:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Logo Perusahaan</strong></li>
+                            <li><i class="fas fa-check"></i> <strong>Tentang Perusahaan</strong> (1 halaman)</li>
+                            <li><i class="fas fa-check"></i> <strong>Menu + Harga</strong> (5 item)</li>
+                            <li><i class="fas fa-check"></i> <strong>Galeri Perusahaan</strong> (10 foto)</li>
+                            <li><i class="fas fa-check"></i> Desain Responsif</li>
+                            <li><i class="fas fa-check"></i> Optimasi SEO Dasar</li>
+                            <li><i class="fas fa-check"></i> Loading Cepat</li>
+                            <li><i class="fas fa-check"></i> Support 1 minggu</li>
+                        </ul>
+                        <div class="pricing-excludes">
+                            <h5><i class="fas fa-times-circle"></i> Tidak Termasuk:</h5>
+                            <ul>
+                                <li><i class="fas fa-times"></i> Menu Best Seller</li>
+                                <li><i class="fas fa-times"></i> Testimoni</li>
+                                <li><i class="fas fa-times"></i> Informasi Tambahan</li>
+                                <li><i class="fas fa-times"></i> Google Maps</li>
+                                <li><i class="fas fa-times"></i> WhatsApp Otomatis</li>
+                                <li><i class="fas fa-times"></i> Domain .biz.id</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20tertarik%20dengan%20Paket%20Basic%20(90-150rb)" 
+                           class="btn btn-secondary" target="_blank">
+                           <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </a>
+                        <p class="pricing-note">*Harga mulai dari Rp 90.000</p>
+                    </div>
+                </div>
+                
+                <!-- Standard Package -->
+                <div class="pricing-card pricing-popular reveal">
+                    <div class="pricing-popular-badge">POPULAR</div>
+                    <div class="pricing-header">
+                        <div class="pricing-badge">Standard</div>
+                        <h3>Paket Standar</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">150.000</span>
+                            <span class="period">- 200.000</span>
+                        </div>
+                        <p class="pricing-desc">Cocok untuk usaha menengah yang sedang berkembang</p>
+                    </div>
+                    <div class="pricing-features">
+                        <h4><i class="fas fa-check-circle"></i> Semua Fitur Basic, plus:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Menu Best Seller</strong> (highlight produk)</li>
+                            <li><i class="fas fa-check"></i> <strong>Testimoni Pelanggan</strong> (5 testimoni)</li>
+                            <li><i class="fas fa-check"></i> <strong>Informasi Lengkap</strong> (visi, misi, dll)</li>
+                            <li><i class="fas fa-check"></i> <strong>Revisi 1x</strong> setelah website selesai</li>
+                            <li><i class="fas fa-check"></i> Galeri (20 foto)</li>
+                            <li><i class="fas fa-check"></i> Menu (10 item)</li>
+                            <li><i class="fas fa-check"></i> Optimasi SEO Medium</li>
+                            <li><i class="fas fa-check"></i> Support 1 bulan</li>
+                        </ul>
+                        <div class="pricing-excludes">
+                            <h5><i class="fas fa-times-circle"></i> Tidak Termasuk:</h5>
+                            <ul>
+                                <li><i class="fas fa-times"></i> Google Maps</li>
+                                <li><i class="fas fa-times"></i> WhatsApp Otomatis</li>
+                                <li><i class="fas fa-times"></i> Domain .biz.id</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20tertarik%20dengan%20Paket%20Standard%20(150-200rb)" 
+                           class="btn btn-primary" target="_blank">
+                           <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </a>
+                        <p class="pricing-note">*Harga mulai dari Rp 150.000</p>
+                    </div>
+                </div>
+                
+                <!-- Premium Package -->
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <div class="pricing-badge">Premium</div>
+                        <h3>Paket Premium</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">300.000</span>
+                            <span class="period">- Flat</span>
+                        </div>
+                        <p class="pricing-desc">Solusi lengkap untuk profesional dan bisnis besar</p>
+                    </div>
+                    <div class="pricing-features">
+                        <h4><i class="fas fa-check-circle"></i> Semua Fitur Standard, plus:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Google Maps Integration</strong></li>
+                            <li><i class="fas fa-check"></i> <strong>WhatsApp Otomatis + Chat</strong></li>
+                            <li><i class="fas fa-check"></i> <strong>Domain .biz.id</strong> (1 tahun)</li>
+                            <li><i class="fas fa-check"></i> <strong>Revisi 1x</strong> setelah website selesai</li>
+                            <li><i class="fas fa-check"></i> Galeri Unlimited</li>
+                            <li><i class="fas fa-check"></i> Menu Unlimited</li>
+                            <li><i class="fas fa-check"></i> Optimasi SEO Premium</li>
+                            <li><i class="fas fa-check"></i> Support 3 bulan</li>
+                            <li><i class="fas fa-check"></i> Backup Website</li>
+                            <li><i class="fas fa-check"></i> Analytics Integration</li>
+                        </ul>
+                        <div class="pricing-bonus">
+                            <h5><i class="fas fa-gift"></i> Bonus Tambahan:</h5>
+                            <ul>
+                                <li><i class="fas fa-star"></i> Free Hosting 6 bulan</li>
+                                <li><i class="fas fa-star"></i> SSL Certificate</li>
+                                <li><i class="fas fa-star"></i> Speed Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20tertarik%20dengan%20Paket%20Premium%20(300rb)" 
+                           class="btn btn-secondary" target="_blank">
+                           <i class="fab fa-whatsapp"></i> Pesan Sekarang
+                        </a>
+                        <p class="pricing-note">*Harga flat Rp 300.000 sudah termasuk domain</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-note-section">
+                <div class="note-box">
+                    <i class="fas fa-info-circle"></i>
+                    <p><strong>Catatan:</strong> Harga dapat berubah tergantung kompleksitas dan kebutuhan khusus. Konsultasi gratis tersedia untuk menentukan paket yang tepat untuk Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="workflow">
+        <div class="container">
+            <h2 class="section-title reveal">Alur <span class="highlight">Kerja</span></h2>
+            <p class="section-subtitle reveal">Proses pembuatan website dari awal hingga online</p>
+            
+            <div class="workflow-timeline">
+                <div class="workflow-step reveal">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-comments"></i> Konsultasi Kebutuhan</h3>
+                        <p>Diskusi awal untuk memahami kebutuhan, target audience, dan tujuan website Anda.</p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Analisis kebutuhan</span>
+                            <span><i class="fas fa-check"></i> Penentuan fitur</span>
+                            <span><i class="fas fa-check"></i> Estimasi waktu & biaya</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="workflow-step reveal">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-lightbulb"></i> Diskusi Konsep</h3>
+                        <p>Merancang wireframe, mockup, dan menentukan warna, tipografi, serta layout website.</p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Wireframe design</span>
+                            <span><i class="fas fa-check"></i> Color scheme</span>
+                            <span><i class="fas fa-check"></i> Typography selection</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="workflow-step reveal">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-laptop-code"></i> Pengerjaan Website</h3>
+                        <p>Proses coding, development, dan implementasi semua fitur yang telah disepakati.</p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Frontend development</span>
+                            <span><i class="fas fa-check"></i> Backend integration</span>
+                            <span><i class="fas fa-check"></i> Content implementation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="workflow-step reveal">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-sync-alt"></i> Revisi & Perbaikan</h3>
+                        <p>Testing website, feedback dari klien, dan melakukan revisi sesuai permintaan.</p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Quality testing</span>
+                            <span><i class="fas fa-check"></i> Client feedback</span>
+                            <span><i class="fas fa-check"></i> Final adjustments</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="workflow-step reveal">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-rocket"></i> Website Online</h3>
+                        <p>Deployment website, optimization, dan penyerahan project beserta dokumentasi.</p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Deployment</span>
+                            <span><i class="fas fa-check"></i> Final optimization</span>
+                            <span><i class="fas fa-check"></i> Project handover</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workflow-cta">
+                <p>Siap memulai proyek website Anda?</p>
+                <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20ingin%20memulai%20proyek%20website" 
+                   class="btn btn-primary" target="_blank">
+                   <i class="fab fa-whatsapp"></i> Mulai Proyek Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Hubungi <span class="highlight">Saya</span></h2>
+            <p class="section-subtitle reveal">Ada proyek dalam pikiran? Mari diskusikan bagaimana kita dapat mewujudkan ide Anda</p>
+            
+            <div class="contact-content">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>+62 831 8573 5868</p>
+                            <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20ingin%20konsultasi%20tentang%20pembuatan%20website" 
+                               class="contact-link" target="_blank">Kirim Pesan</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>labib@example.com</p>
+                            <a href="mailto:labib@example.com" class="contact-link">Kirim Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Lokasi</h4>
+                            <p>Lamongan, Indonesia</p>
+                            <span class="contact-link">Layanan Online Nasional</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Jam Kerja</h4>
+                            <p>Senin - sabtu: 6:00 - 14:00</p>
+                            <p>Minggu: 4:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nama Lengkap" required>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Aktif" required>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Nomor WhatsApp">
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <select id="package" required>
+                                <option value="">Pilih Paket yang Diinginkan</option>
+                                <option value="basic">Paket Basic (90-150rb)</option>
+                                <option value="standard">Paket Standard (150-200rb)</option>
+                                <option value="premium">Paket Premium (300rb)</option>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Deskripsi proyek atau pertanyaan Anda" required></textarea>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Kirim Permintaan
+                        </button>
+                        <p class="form-note">Atau langsung chat via <a href="https://wa.me/6281234567890?text=Halo%20Labib,%20saya%20ingin%20konsultasi%20tentang%20pembuatan%20website" target="_blank">WhatsApp</a> untuk respon lebih cepat</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">LABIB<span class="logo-dot">.</span></a>
+                    <p>Spesialis pembuatan website modern untuk bisnis dan personal dengan teknologi terkini.</p>
+                    <div class="footer-payment">
+                        <h5>Metode Pembayaran:</h5>
+                        <div class="payment-methods">
+                            <span><i class="fas fa-credit-card"></i> Transfer Bank</span>
+                            <span><i class="fab fa-paypal"></i> Gopay</span>
+                            <span><i class="fas fa-money-bill-wave"></i> Dana</span>
+                            <span><i class="fas fa-money-bill-wave"></i> Cash</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#pricing">Paket Basic</a></li>
+                        <li><a href="#pricing">Paket Standard</a></li>
+                        <li><a href="#pricing">Paket Premium</a></li>
+                        <li><a href="#workflow">Alur Kerja</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#skills">Keahlian</a></li>
+                        <li><a href="#projects">Proyek</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Terhubung</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/6283185735868" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="footer-cta">
+                        <p>Siap membuat website?</p>
+                        <a href="https://wa.me/6283185735868?text=Halo%20Labib,%20saya%20ingin%20memulai%20proyek%20website" 
+                           class="btn btn-primary" target="_blank">
+                           <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Muhammad Labib. Hak cipta dilindungi. | <a href="#" style="color: var(--primary-color);">Syarat & Ketentuan</a> | <a href="#" style="color: var(--primary-color);">Kebijakan Privasi</a></p>
+                <p class="footer-call">Butuh bantuan cepat? <a href="https://wa.me/6283185735868" target="_blank" style="color: var(--primary-color); font-weight: bold;">WhatsApp: +62 831 8573 5868</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Main JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
